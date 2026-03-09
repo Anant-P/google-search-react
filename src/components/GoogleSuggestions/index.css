@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+img {
+  width: 400px;
+}
+.search-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 12px;
+  width: 400px;
+  margin: 28px;
+  padding: 12px;
+}
+.search-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.search-icon {
+  width: 25px;
+  margin: 0 8px 0 0;
+}
+input {
+  border: none;
+  width: 100%;
+  height: 25px;
+}
+input:focus {
+  outline: none;
+}
+.list-itme-container{
+  margin-top: 12px;
+}
